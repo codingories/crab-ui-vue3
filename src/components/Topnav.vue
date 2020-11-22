@@ -2,7 +2,7 @@
   <div class="topnav">
     <router-link to="/" class="logo">
       <svg class="icon">
-        <use xlink:href="#icon-king"></use>
+        <use xlink:href="#icon-pangxie"></use>
       </svg>
     </router-link>
     <ul class="menu">
@@ -54,11 +54,11 @@
     justify-content: center;
     align-items: center;
     >.logo {
-      max-width: 6em;
+      max-width: 8em;
       margin-right: auto;
       >svg {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
       }
     }
     >.menu {
