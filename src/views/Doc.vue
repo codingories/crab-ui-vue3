@@ -44,7 +44,7 @@
     components: { Topnav },
     setup(){
       const menuVisible =  inject<Ref<boolean>>('menuVisible'); // get
-      console.log('topnav 获取的 menu Visible 为: ' + menuVisible.value)
+      // console.log('topnav 获取的 menu Visible 为: ' + menuVisible.value)
       return {menuVisible}
     }
   }
