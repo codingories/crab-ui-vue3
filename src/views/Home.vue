@@ -3,10 +3,10 @@
     <div class="topnavAndBanner">
       <Topnav />
       <div class="banner">
-        <h1>轱辘UI</h1>
-        <h2>一个厉害的 UI 框架</h2>
+        <h1>crab-ui-Vue3</h1>
+        <h2>一款基于Vue3实现的 UI 框架</h2>
         <p class="actions">
-          <a href="https://github.com">GitHub</a>
+          <a href="https://github.com/codingories/crab-ui-vue3">GitHub</a>
           <router-link to="/doc">开始</router-link>
         </p>
       </div>
@@ -18,7 +18,7 @@
             <use xlink:href="#icon-vue"></use>
           </svg>
           <h3>基于 Vue 3</h3>
-          <p>骄傲地使用了 Vue 3 Composition API</p>
+          <p>使用了 Vue 3 Composition API</p>
         </li>
         <li>
           <svg>
@@ -55,6 +55,10 @@
   .topnavAndBanner {
     background: linear-gradient(145deg, rgba(227, 255, 253, 1) 0%, rgba(183, 233, 230, 1) 100%);
     clip-path: ellipse(80% 60% at 50% 40%);
+    padding: 100px 0 50px 0;
+    ::v-deep(.top-nav){
+      background: transparent;
+    }
   }
   .features {
     margin: 64px auto;

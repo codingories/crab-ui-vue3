@@ -53,6 +53,9 @@
     z-index: 20;
     justify-content: center;
     align-items: center;
+    height: 60px;
+    /*border: 1px solid red;*/
+    box-shadow: 0 0 2px rgba(0,0,0,.25);
     >.logo {
       max-width: 8em;
       margin-right: auto;
